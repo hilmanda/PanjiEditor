@@ -37,5 +37,5 @@ limit of the program :
 
 _author_
 
-*HPO*
+[HPO](https://github.com/hilmanda/PanjiEditor "My GitHub")
 
