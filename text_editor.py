@@ -6,9 +6,8 @@ class Text_area():
     def __init__(self, root, scroll):
         self.editor = Text(root, undo=True, font=("Lucida Console", 10), selectforeground="white", wrap='word', yscrollcommand=scroll.set)
         self.grid = self.editor.grid(row=0, column=1, sticky="nsew")
-    def get_area(self):
-        pass
 
+#vertical scrollbar
 class Text_scroll():
     def __init__(self, cursor_type):
         self.bar = Scrollbar(cursor=cursor_type)
