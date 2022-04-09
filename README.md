@@ -11,13 +11,13 @@ exe file for Windows *only*
 # disclaimer
 
 this program only can do:
-- *creat file*
-- *open file* (txt, programming language, and markdown)
-- *save as*
+* **creat file**
+* **open file** (txt, programming language, and markdown)
+* **save as**
 
 limit of the program :
-- cannot _save_ without _save as_ (_ctrl+s_ not working)
-- limit of file type
+* cannot _save_ without _save as_ (_ctrl+s_ not working)
+* limit of file type
 
 
 _author_
