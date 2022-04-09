@@ -1,17 +1,15 @@
+# How to Extract
+Extract everything directly to C: or D:
+do not extract inside a folder
+
 # HOW to RUN
 list how u can run the program
-- doble click on __PanjiEditor__ shortcut icon
-- type `python -u '/PanjiEditor/Main.py' on your terminal
-- 
-
+- double click on __PanjiEditor__ shortcut icon
+- type `python -u '/PanjiEditor/src/Main.py'` on your terminal
+- run exe file in directory ` \bin\dist`
 # SPEC
-
-using 'pyinstaller' to create exe file
-- `pyinstaller --onefile Main.py --noconsole`
-
-make sure your cmd path in the same directory as _Main.py_
-
-exe file for Windows *only*
+using 'pyinstaller' to create exe file, make sure your cmd path in bin directory
+- `pyinstaller --onefile \PanjiEditor\src\Main.py --noconsole`
 
 
 # disclaimer
@@ -22,7 +20,7 @@ this program only can do:
 * **Save**
 * **Save As**
 
-keyboard shortcut
+keyboard shortcut:
 * `ctrl+n` to create a new file
 * `ctrl+o` to open an existing file
 * `ctrl+s` to save file
