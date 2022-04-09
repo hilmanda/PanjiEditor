@@ -6,7 +6,7 @@ class Window(Tk):
     def __init__(self):
         super().__init__()
         self.title('PanjiEditor - Untitled')
-        self.iconphoto(True, PhotoImage(file='/PanjiEditor/icons/favicon-32.png'))
+        self.iconphoto(True, PhotoImage(file='/PanjiEditor/src/icons/favicon-32.png'))
         self.rowconfigure(0, weight=1)
         self.columnconfigure(1, minsize=800, weight=1)
         self.minsize(height=800, width=885)
