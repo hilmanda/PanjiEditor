@@ -1,4 +1,4 @@
-#SPEC
+# SPEC
 
 using 'pyinstaller' for create exe file
 - 'pyinstaller --onefile Main.py --noconsole'
@@ -7,7 +7,8 @@ make sure your cmd path in the same directory as _Main.py_
 exe file for windows *only*
 
 
-#disclaimer
+# disclaimer
+
 this program only can do:
 - *creat file*
 - *open file* (txt, programming language, and markdown)
