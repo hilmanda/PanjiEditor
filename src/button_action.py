@@ -13,6 +13,7 @@ class Button_action():
     def new_file(self, *args):
         self.__filename = None
         self.__text.delete(1.0,END)
+        self.__root.title(f'PanjiEditor - Untitled')
 
     #open a file method
     def open_file(self, *args):
