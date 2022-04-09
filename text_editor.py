@@ -28,4 +28,4 @@ def Create_Editor(root):
     scroll.bar.config(command=txt.editor.yview)
 
 if __name__ == '__main__':
-    showerror(title="Warning!", message="Run Main.py to open the editor!")
+    showerror(title="Warning!", message="Run Main.py or Main.exe or PanjiEditor Shortcut to open the editor!")
