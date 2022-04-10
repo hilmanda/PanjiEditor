@@ -1,5 +1,5 @@
 # How to Extract
-Extract everything directly to C: or D:
+Extract everything directly to D:
 do not extract inside a folder
 
 # HOW to RUN
